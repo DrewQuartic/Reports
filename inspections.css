@@ -1,0 +1,74 @@
+﻿#MainPanel 
+{
+   background-color:Silver;
+   border: thin solid black 1px;
+   height:600px;
+   width:800px;
+}
+#inputdiv 
+{
+  margin: 5px 5px 5px 5px;
+}
+#inspectiondiv {
+  border: thin solid black 1px;
+  margin: 5px 5px 5px 5px;
+  background-color:White;
+  float: left;
+  width: 320px;
+  height: 350px;
+}
+#mediaScreen 
+{
+  background-color: white;
+  border: thin solid black 1px;
+  margin: 5px 5px 5px 5px;
+  float: left;
+  width: 440px;
+  height: 350px;
+}
+#detailsdiv {
+  /*border: thin solid red 1px;*/
+  margin: 5px 5px 5px 5px;
+  clear: left;
+  width: 780px;
+  height: 150px;
+}
+
+/* GridView Styles */
+.HeaderStyle
+{
+    background-color: ButtonFace;
+    color: ButtonText;
+    font-weight: bold;
+    border: thin solid black 1px;
+}
+
+.AlternatingRowStyle
+{
+    background-color: Yellow; /*LightGoldenrodYellow; */
+}
+
+.RowStyle
+{
+}
+
+.SelectedRowStyle
+{
+    background-color: Yellow;
+}
+
+.TIDESTableStyle
+{
+    border: thin solid black 1px;
+}
+
+.TidesTableTitle
+{
+    font-weight:bold;
+ }
+ 
+.TIDESValueUnequal
+{
+    font-weight:bold;
+    color: Red;
+}
